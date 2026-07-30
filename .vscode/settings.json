@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "Supabase-Pooler-Certo",
+            "driver": "PostgreSQL",
+            "server": "aws-0-sa-east-1.pooler.supabase.com",
+            "port": 6543,
+            "database": "postgres",
+            "username": "postgres.buygpmbxsdyqfyeebqkg",
+            "password": "MU+Sv78Z!f%dsS2",
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": false
+                }
+            }
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "PostgreSQL-Novo",
+            "database": "postgres",
+            "username": "postgres"
+        }
+    ]
+}
